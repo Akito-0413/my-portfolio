@@ -1,6 +1,7 @@
 .header-p1 {
-  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: 4rem;
+  color: white;
 }
 .note {
   padding-top: 1rem;
@@ -11,13 +12,20 @@
   width: 10%;
   height: auto;
 }
-
+p {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 1rem;
+  color: white;
+}
 .top {
-  height: 700rem;
+  display: inline-block;
+  height: 65rem;
+  max-width: 100rem;
   background-image: url(../images/akito001.jpg);
-  backdrop-filter: blur(12px);
+  object-fit: contain;
 }
 .akito {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   padding-top: 12rem;
   margin-left: 40rem;
   font-size: 5rem;
@@ -25,8 +33,19 @@
   color: white;
 }
 .yamauchi {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   margin-left: 40rem;
   font-size: 3rem;
   text-align: center;
   color: white;
+}
+/*クイズ*/
+#quiz-image {
+  height: 300px;
+  width: 300px;
+  object-fit: contain;
+}
+
+.hidden {
+  display: none;
 }
