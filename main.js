@@ -15,7 +15,7 @@ const choose = function (choiceString) {
 };
 
 choice1.onclick = function () {
-  choose("AN WITH A MISSION");
+  choose("MAN WITH A MISSION");
 };
 choice2.onclick = function () {
   choose("BUMP OF CHIKEN");

@@ -22,6 +22,7 @@ p {
   height: 65rem;
   max-width: 100rem;
   background-image: url(../images/akito001.jpg);
+  background-size: 100% 100%;
   object-fit: contain;
 }
 .akito {
