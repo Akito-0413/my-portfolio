@@ -3,6 +3,7 @@
   font-size: 4rem;
   color: white;
 }
+
 .note {
   padding-top: 1rem;
   width: 20%;
@@ -11,23 +12,25 @@
 .qiita {
   width: 10%;
   height: auto;
+  margin-top: 1rem;
 }
+
 p {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  font-size: 1rem;
-  color: white;
+  font-size: 1.8rem;
+  color: black;
 }
 .top {
   display: inline-block;
   height: 65rem;
   max-width: 100rem;
-  background-image: url(../images/akito001.jpg);
+  background-image: url("https://github.com/Akito-Yamauchi-0413/my-portfolio/blob/master/images/akito003.JPG?raw=true");
   background-size: 100% 100%;
   object-fit: contain;
 }
 .akito {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  padding-top: 12rem;
+  padding-top: 30rem;
   margin-left: 40rem;
   font-size: 5rem;
   text-align: center;
@@ -49,4 +52,45 @@ p {
 
 .hidden {
   display: none;
+}
+
+body {
+  background: #ec6a38;
+  -webkit-animation: colour 10s linear infinite;
+  -moz-animation: colour 10s linear infinite;
+}
+@-webkit-keyframes colour {
+  0% {
+    background: #38d7ec;
+  }
+
+  40% {
+    background: #9eec38;
+  }
+
+  80% {
+    background: #ec9138;
+  }
+
+  100% {
+    background: #38d7ec;
+  }
+}
+
+@-moz-keyframes colour {
+  0% {
+    background: #38d7ec;
+  }
+
+  40% {
+    background: #9eec38;
+  }
+
+  80% {
+    background: #ec9138;
+  }
+
+  100% {
+    background: #38d7ec;
+  }
 }
