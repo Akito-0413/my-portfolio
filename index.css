@@ -1,5 +1,5 @@
 .header-p1 {
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: "IM Fell DW Pica", serif;
   font-size: 4rem;
   color: white;
 }
@@ -14,18 +14,26 @@
   height: auto;
   margin-top: 1rem;
 }
-
+h1 {
+  color: white;
+  font-family: "IM Fell DW Pica", serif;
+}
+h2 {
+  color: white;
+  text-align: center;
+  font-family: "IM Fell DW Pica", serif;
+}
 p {
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  font-size: 1.8rem;
-  color: black;
+  font-family: "IM Fell DW Pica", serif;
+  font-size: 25px;
+  color: white;
 }
 .top {
   display: inline-block;
   height: 65rem;
-  max-width: 100rem;
+  max-width: 100%;
   background-image: url("https://github.com/Akito-Yamauchi-0413/my-portfolio/blob/master/images/akito003.JPG?raw=true");
-  background-size: 100% 100%;
+
   object-fit: contain;
 }
 .akito {
@@ -37,7 +45,7 @@ p {
   color: white;
 }
 .yamauchi {
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: "IM Fell DW Pica", serif;
   margin-left: 40rem;
   font-size: 3rem;
   text-align: center;
@@ -49,12 +57,16 @@ p {
   width: 300px;
   object-fit: contain;
 }
+.row {
+  flex-direction: row;
+}
 
 .hidden {
   display: none;
 }
 
 body {
+  max-width: 100%;
   background: #ec6a38;
   -webkit-animation: colour 10s linear infinite;
   -moz-animation: colour 10s linear infinite;
