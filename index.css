@@ -18,16 +18,11 @@ a.header-p2 {
   padding-top: 1rem;
   width: 10%;
   height: auto;
-  position: absolute;
-  right: 0;
-  margin-right: 5rem;
 }
 .qiita {
   width: 5%;
   height: auto;
   margin-top: 1rem;
-  position: absolute;
-  right: 0;
 }
 h1 {
   color: white;
