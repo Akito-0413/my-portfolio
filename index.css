@@ -1,6 +1,6 @@
 .header-p1 {
   font-family: "IM Fell DW Pica", serif;
-  font-size: 5rem;
+  font-size: 15vh;
   color: white;
 
   top: 0;
@@ -40,12 +40,12 @@ h2 {
 }
 p {
   font-family: "IM Fell DW Pica", serif;
-  font-size: 3vh;
+  font-size: 2vh;
   color: white;
 }
 .p {
   font-family: "IM Fell DW Pica", serif;
-  font-size: 3vh;
+  font-size: 2vh;
   color: white;
   text-decoration: none;
 }
